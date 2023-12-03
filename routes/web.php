@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index2');
 });
 
 Route::get('halo', function () {
@@ -107,3 +107,4 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@lihat');

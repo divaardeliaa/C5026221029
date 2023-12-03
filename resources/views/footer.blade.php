@@ -1,4 +1,3 @@
-@yield('konten')
             <br>
             <br>
             <hr>
