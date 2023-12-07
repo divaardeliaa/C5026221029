@@ -108,3 +108,10 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@lihat');
+
+Route::get('/user', 'App\Http\Controllers\UserController@index');
+
+Route::get('/keranjang-belanja', 'App\Http\Controllers\KeranjangKontroller@index');
+Route::get('/keranjang-belanja/hapus/{id}','App\Http\Controllers\KeranjangKontroller@hapus');
+Route::get('/keranjang-belanja/tambah','App\Http\Controllers\KeranjangKontroller@beli');
+Route::post('/keranjang-belanja/store','App\Http\Controllers\KeranjangKontroller@store');
