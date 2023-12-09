@@ -115,3 +115,16 @@ Route::get('/keranjang-belanja', 'App\Http\Controllers\KeranjangKontroller@index
 Route::get('/keranjang-belanja/hapus/{id}','App\Http\Controllers\KeranjangKontroller@hapus');
 Route::get('/keranjang-belanja/tambah','App\Http\Controllers\KeranjangKontroller@beli');
 Route::post('/keranjang-belanja/store','App\Http\Controllers\KeranjangKontroller@store');
+
+Route::get('/buku', 'App\Http\Controllers\BukuController@index');
+Route::get('/buku/tambah','App\Http\Controllers\BukuController@tambah');
+Route::post('/buku/store','App\Http\Controllers\BukuController@store');
+Route::get('/buku/edit/{kodebuku}','App\Http\Controllers\BukuController@edit');
+Route::post('/buku/update/','App\Http\Controllers\BukuController@update');
+Route::get('/buku/hapus/{kodebuku}','App\Http\Controllers\BukuController@hapus');
+Route::get('/buku/cari','App\Http\Controllers\BukuController@cari');
+Route::get('/buku/view/{id}','App\Http\Controllers\BukuController@lihat');
+
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
