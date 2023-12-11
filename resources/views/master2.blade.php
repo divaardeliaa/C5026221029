@@ -17,10 +17,16 @@
         <!-- Links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
+            <a class="nav-link" href="/pegawai">PEGAWAI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
+            <a class="nav-link" href="/buku">BUKU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/keranjang-belanja">KERANJANG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/chat">CHAT</a>
           </li>
 
           <!-- Dropdown -->
@@ -29,9 +35,10 @@
               DATABASE
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="/pegawai">Pegawai</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="/pegawai">Data Pegawai</a>
+              <a class="dropdown-item" href="/buku">Data Buku</a>
+              <a class="dropdown-item" href="/keranjang-belanja">Keranjang Belanja</a>
+              <a class="dropdown-item" href="/chat">Chat</a>
             </div>
           </li>
         </ul>

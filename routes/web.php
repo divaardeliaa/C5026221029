@@ -128,3 +128,5 @@ Route::get('/buku/view/{id}','App\Http\Controllers\BukuController@lihat');
 Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
 Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+
+Route::get('/chat', 'App\Http\Controllers\ChatController@index');

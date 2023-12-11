@@ -1,0 +1,36 @@
+class ChatController extends Controller
+{
+    public function index()
+    {
+        // Ambil pesan dari database
+        $pesan = DB::table('chat')->get();
+
+        // Emoticon conversion rules
+        $emoji = [
+            ':))' => '1.png',
+            ':3'  => '2.png',
+            ':P'  => '3.png',
+            ':C'  => '4.png',
+            ';)'  => '5.png',
+        ];
+
+        // Process each message in the collection
+        foreach ($pesan as $message) {
+            // Explode the string into an array based on spaces
+            $splitPesan = explode(' ', $message->pesan);
+
+            // Replace emoji with corresponding images
+            foreach ($splitPesan as &$s) {
+                if (array_key_exists($s, $emoji)) {
+                    $s = '<img src="' . asset('/Pictures/' . $emoji[$s]) . '" alt="' . $s . '" style="width:24px; height:24px;" />';
+                }
+            }
+
+            // Implode the array back into a string
+            $message->pesan = implode(' ', $splitPesan);
+        }
+
+        return view('indexchat', ['pesan' => $pesan]);
+    }
+
+}
