@@ -50,7 +50,7 @@ class ChatController extends Controller
         // Kembalikan ke bentuk string
             $pesanEmoji = implode(' ', $splitPesan);
 
-            return view('indexchat', ['pesanEmoji' => $pesanEmoji]);
+            return view('indexChat', ['pesanEmoji' => $pesanEmoji]);
         }
 
     }
