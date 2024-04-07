@@ -211,7 +211,7 @@
                                             <img src="img9.jpg" alt="haha">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="img10.jpg" alt="hihi">
+                                            <img src="img10.jpeg" alt="hihi">
                                         </div>
                                     </div>
                                         <!-- Left and right controls -->
@@ -275,6 +275,11 @@
                                 <img src="sertidd3.jpeg" alt="sertif">
                                 <img src="sertif2.jpeg" alt="sertif">
                                 <img src="sertif1.jpeg" alt="sertif">
+                                <img src="pratd.png" alt="sertif">
+                                <img src="lkmmtd.jpg" alt="sertif">
+                                <img src="bms.jpg" alt="sertif">
+                                <img src="gerigi.jpg" alt="sertif">
+                                <img src="iscom.jpg" alt="sertif">
                             </div>
                         </div>
                 </div>
