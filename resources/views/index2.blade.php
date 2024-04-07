@@ -188,6 +188,7 @@
                                         <li data-target="#demo" data-slide-to="2"></li>
                                         <li data-target="#demo" data-slide-to="3"></li>
                                         <li data-target="#demo" data-slide-to="4"></li>
+                                        <li data-target="#demo" data-slide-to="5"></li>
                                     </ul>
 
                                     <!-- The slideshow -->
@@ -207,7 +208,10 @@
                                             <img src="img7.jpg" alt="paris">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="img8.jpg" alt="haha">
+                                            <img src="img9.jpg" alt="haha">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img10.jpg" alt="hihi">
                                         </div>
                                     </div>
                                         <!-- Left and right controls -->
