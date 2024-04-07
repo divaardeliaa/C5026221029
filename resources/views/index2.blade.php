@@ -258,9 +258,10 @@
                                         <img src="Song-fess-1.png" alt="desain-1">
                                         <img src="Song-fess-4.png" alt="desain2">
                                         <img src="Song-fess-2.png" alt="desain3">
-                                        <img src="H-1.png" alt="sertif">
-                                        <img src="FORDS.jpg" alt="sertif">
-                                        <img src="SNAPSSS.png" alt="sertif">
+                                        <img src="livereport.png" alt="desain-4">
+                                        <img src="H-1.png" alt="desain5">
+                                        <img src="FORDS.jpg" alt="desain6">
+                                        <img src="SNAPSSS.png" alt="desain7">
                                     </div>
                                 </div>
                             </div>
@@ -275,7 +276,7 @@
                                 <img src="sertidd3.jpeg" alt="sertif">
                                 <img src="sertif2.jpeg" alt="sertif">
                                 <img src="sertif1.jpeg" alt="sertif">
-                                <img src="pratd.png" alt="sertif">
+                                <img src="pratd.jpg" alt="sertif">
                                 <img src="lkmmtd.jpg" alt="sertif">
                                 <img src="bms.jpg" alt="sertif">
                                 <img src="gerigi.jpg" alt="sertif">
